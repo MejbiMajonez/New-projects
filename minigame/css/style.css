@@ -1,0 +1,86 @@
+#container {
+    position: relative;
+    border: 1px solid #000000;
+    width: 800px;
+    height: 400px;
+    margin: 50px;
+    z-index:10;
+}
+.kwadracik{
+  height:20px;
+  width:20px;
+  background-color:#f00;
+  position:absolute;
+
+}
+.kwadracik1{
+  height:20px;
+  width:20px;
+  background-color:#f00;
+  position:absolute;
+  top:200px;
+  left:400px;
+}
+.grafika{
+  position:absolute;
+  border: 1px solid #000000;
+  width: 800px;
+  height:400px;
+  background-image:url("https://images.pexels.com/photos/316465/pexels-photo-316465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-color:#333;
+  z-index:11;
+}
+.dupa{
+  position:absolute;
+}
+.cfel{
+  display:none;
+
+}
+.cfel2{
+  display:block;
+  float:left;
+}
+.GF{
+  height:400px;
+  width:800px;
+  background-color:#222222;
+  position:absolute;
+  padding:20px;
+  background-image:url("../img/geekfactory.png");
+  background-position:center center;
+  background-repeat:no-repeat;
+  z-index:11;
+
+}
+.kontener{
+  position:relative;
+  margin-top:50px;
+  margin-left:50px;
+  height:50px;
+  width:300px;
+}
+.knefel2{
+  border:1px solid #333;
+  height:20px;
+  margin-left:10px;
+  cursor:pointer;
+  float:left;
+  display:block;
+}
+.duzy_kwadrat {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #f00;
+}
+.ziom{
+  background-image:url("https://ibb.co/hyjw4y");
+  height:40px;
+  width:40px;
+  background-position:center center;
+  position:absolute;
+}

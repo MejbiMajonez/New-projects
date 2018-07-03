@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="plugins/j_query_ui/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Java-Script-->
+    <script type="text/javascript" src="plugins/jquery.js"></script>
+    <script type="text/javascript" src="plugins/j_query_ui/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- moje -->
+    <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+  <!-- Title -->
+<h1 id="title"> Survey Form </h1>
+ <!-- start survey -->
+<div class="container">
+ <p id="description"> Let me know how to improve my pens on Codepen!</p>
+ <!-- START form -->
+<form id="survey-form">
+  <!-- START NAME -->
+  <div class="rowtab">
+     <div class="ops">
+       <label id="name-label">
+         Name:</div></label>
+       <input type="text" id="name" class="inp" placeholder="Enter your name" required>
+      </div>
+  <!--END NAME -->
+  <!--START E-MAIL-->
+         <div class="rowtab">
+           <div class="ops">
+             <label id="email-label">
+               E-mail:</div></label>
+           <input type="text" id="email" class="inp" placeholder="Enter your email"required>
+         </div>
+  <!--END EMAIL-->
+  <!--START AGE-->
+  <div class="rowtab">
+    <div class="ops"><label id="age-label">Age:</div></label>
+           <input id="number" type="number" min="1" max="100" class="inp" placeholder="Age" required>
+         </div>
+  <!--STOP AGE-->
+  <!--START ROlE-->
+  <div class="rowtab">
+    <div class="ops"><label id="dropdown-label">What is your current role?</div></label>
+    <select id="dropdown"
+            name="currentPos" class="dropdown">
+      <option disabled value>Select an option</option>
+      <option value="Student">Student</option>
+      <option value="job">Full time job</option>
+      <option value="other">Other</option>
+      <option value="other2">Prefer not to say</option>
+        </select>
+  </div>
+  <!--STOP ROLE-->
+  <!--START box1-->
+  <div class="rowtab" id="radio">
+    <div class="ops">Do you like this page style?</div>
+    <ul style="list-style: none;" class="rad">
+      <li class="radio">
+        <label>Yes<input name="radio-buttons" value="1" type="radio"></label>
+        <br>
+         <label>No<input name="radio-buttons" value="2" type="radio"></label>
+        <br>
+         <label>Not sure<input name="radio-buttons" value="3" type="radio"></label>
+        <br>
+      </li>
+      </div>
+    <!--STOP box1-->
+    <!--START box2-->
+    <div class="rowtab">
+    <div class="blah"><label id="suggestions">Any suggestions?</div></label>
+      <textarea class="area" name="comments" placeholder="Enter your comment here!"></textarea>
+  </div>
+  <!--START BUTTON-->
+  <div class="rowtab" id="btn">
+  <button id="submit" type="submit">Submit</button>
+  </div>
+ </form>
+ <!--END BUTTON-->
+ </body>
+ <br>
+ </div>
+ <!--START Footer-->
+<div class="footer" id="End">
+ <hr>
+<footer>
+ <p> Designed by : Simon G. </p>
+ <div class="flex-container">
+ <a href="https://www.linkedin.com/in/szymon-grzeg%C3%B3rski-8b6158161/"target="_blank"><i class="fab fa-linkedin"></i></a>
+ <a href="https://github.com/MejbiMajonez" target="_blank"><i class="fab fa-github"></i></a>
+ <a href="https://codepen.io/MejbiMajonez/"target="_blank"><i class="fab fa-codepen"></i></a>
+</div>
+ </footer>
+ </div>
+<!--Stop FOOTER -->
+</body>
+</html>
