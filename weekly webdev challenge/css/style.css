@@ -1,0 +1,176 @@
+body{
+  background:url("https://image.ibb.co/kQzK2T/tlo.png");
+  background-size:cover;
+  font-family: 'Titillium Web', sans-serif;
+  width: 1050px;
+height: 1372px;
+  margin:auto;
+
+}
+.zdj1{
+ opacity:0.15;
+  margin-top:105px;
+  margin-left:350px;
+  display:inline-block;
+}
+.zdj2{
+ opacity:0.15;
+  margin-left:22px;
+  display:inline-block;
+}
+/* first container */
+.poj1{
+ width: 423px;
+height: 463px;
+background-color:rgba(0,0,0,0.1);
+  border-radius:5px;
+  z-index:1;
+  position:relative;
+  border-radius:5px;
+}
+.inPoj1{
+  width: 385px;
+height: 423px;
+box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.13);
+background-color: #f4f4f4;
+  z-index:10;
+  margin:21px 20px 19px 18px;
+  position:absolute;
+  border-radius:5px;
+  display:flex;
+  justify-content:center;
+
+}
+/* second container */
+.poj2{
+  width: 100%;
+height: 263px;
+background-color:rgba(0,0,0,0.1);
+  position:relative;
+  border-radius:5px;
+}
+.inPoj2{
+  width: 93%;
+height: 221px;
+box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.13);
+background-color: #f4f4f4;
+  margin:21px 20px 19px 18px;
+  position:absolute;
+  border-radius:5px;
+}
+/* third container */
+.poj3{
+  width: 100%;
+height: 263px;
+background-color:rgba(0,0,0,0.1);
+  position:relative;
+  border-radius:5px;
+}
+.inPoj3{
+  width: 93%;
+height: 221px;
+box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.13);
+background-color: #f4f4f4;
+  margin:21px 20px 19px 18px;
+  position:absolute;
+  border-radius:5px;
+}
+/* forth container */
+.poj4{
+  width: 100%;
+height: 538px;
+background-color:rgba(0,0,0,0.1);
+  position:relative;
+  border-radius:5px;
+}
+.inPoj4{
+ width: 93%;
+height: 498px;
+box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.13);
+background-color: #f4f4f4;
+  margin:21px 20px 19px 18px;
+  position:absolute;
+  border-radius:5px;
+}
+  /* fifth container */
+.poj5{
+width: 100%;
+height: 198px;
+background-color:rgba(0,0,0,0.1);
+  position:relative;
+  border-radius:5px;
+}
+.inPoj5{
+ width: 93%;
+height: 158px;
+box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.13);
+background-color: #f4f4f4;
+  margin:22px 22px 19px 18px;
+  position:absolute;
+  border-radius:5px;
+}
+h1{
+  margin-top:50px;
+  text-align:center;
+  text-shadow: 1px 1px #333;
+  color:#fff;
+}
+.k2{
+  margin-top:50px;
+  opacity:0.2;
+}
+#k1{
+  margin-left:100px;
+  margin-bottom:20px;
+}
+#inPojTxt{
+  margin-top:21px;
+  width: 338px;
+height: 39px;
+border: 1px solid #c6c6c6;
+  display:flex;
+  justify-content:center;
+
+}
+.InPojAftTxt{
+ position:absolute;
+  bottom:80px;
+  width: 297px;
+height: 17px;
+color: #afafaf;
+font-family: "Titillium Text 22 L";
+font-size: 17px;
+font-weight: 300;
+}
+.btn1{
+  /* Style for "Shape 12" */
+width: 339px;
+height: 48px;
+box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 1px rgba(255, 255, 255, 0.41);
+border: 1px solid #3b9a00;
+background-color:#90ce29;
+color:#fff;
+  bottom:18px;
+  position:absolute;
+  font-size: 24px;
+font-weight: 500;
+}
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 11px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
